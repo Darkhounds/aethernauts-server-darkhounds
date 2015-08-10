@@ -1,7 +1,7 @@
 should      = (require 'chai').should()
 #
 describe 'The Abstract Model', ->
-    AbstractModel   = require "../abstract/model"    
+    AbstractModel   = require "../src/abstract/model"    
     it 'Should be defined',                             -> should.exist AbstractModel
     it 'Should implement the "decorate" method',        -> AbstractModel.should.itself.respondTo 'decorate'
     it 'Should have missing argument error declared',   -> AbstractModel.ERROR_MISSING_ARGUMENT.should.be.a 'string'

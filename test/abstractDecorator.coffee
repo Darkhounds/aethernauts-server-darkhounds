@@ -1,7 +1,7 @@
 should      = (require 'chai').should()
 #
 describe 'The Abstract Decorator', ->
-    AbstractDecorator   = require "../abstract/decorator"
+    AbstractDecorator   = require "../src/abstract/decorator"
     it 'Should be defined',                                 -> should.exist AbstractDecorator
     it 'Should implement the "decorate" method',            -> AbstractDecorator.should.itself.respondTo 'decorate'
     it 'Should implement the "extend" method',              -> AbstractDecorator.should.itself.respondTo 'extend'

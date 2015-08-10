@@ -1,7 +1,7 @@
 should                      = (require 'chai').should()
 #
 describe 'An Observable', ->
-    DecoratorObservable     = require "../decorator/observable"
+    DecoratorObservable     = require "../src/decorator/observable"
     it 'Should be defined',                             -> should.exist DecoratorObservable
     it 'Should implement the "decorate" method',        -> DecoratorObservable.should.itself.respondTo 'decorate'
     it 'Should have missing argument error declared',   -> DecoratorObservable.ERROR_MISSING_ARGUMENT.should.be.a 'string'
