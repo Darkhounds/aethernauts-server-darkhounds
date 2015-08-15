@@ -1,4 +1,4 @@
-module.export = {
+module.exports = {
     abstract: {
         StrictArguments:    require('./src/abstract/StrictArguments'),
         Decorator:          require('./src/abstract/Decorator'),
