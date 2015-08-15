@@ -1,22 +1,22 @@
 {
-  "name": "darkhounds",
-  "version": "1.0.0",
-  "description": "Base lib",
-  "author": "fppgodinho@gmail.com",
-  "license": "ISC",
-  "main": "run.js",
-  "scripts": {
-    "test": "./node_modules/.bin/karma start",
-    "deploy": "./node_modules/.bin/gulp build"
+  "name":             "darkhounds",
+  "version":          "1.0.0",
+  "description":      "Base lib",
+  "author":           "fppgodinho@gmail.com",
+  "license":          "ISC",
+  "main":             "bootstrap.js",
+  "scripts":          {
+    "test":             "./node_modules/.bin/karma start",
+    "deploy":           "./node_modules/.bin/gulp build"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "chai": "^3.0.0",
-    "coffee-script": "^1.9.3",
-    "mocha": "^2.2.5"
+  "dependencies":     {},
+  "devDependencies":  {
+    "chai":             "^3.0.0",
+    "coffee-script":    "^1.9.3",
+    "mocha":            "^2.2.5"
   },
   "repository": {
-    "type": "git",
-    "url": "git@gitlab.com:darkhounds/aethernauts-server-darkhounds.git"
+    "type":           "git",
+    "url":            "git@gitlab.com:darkhounds/aethernauts-server-darkhounds.git"
   }
 }
